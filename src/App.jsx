@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import img from '/my_photo.jpg'
 
 const containerStyle = {
   display: 'flex',
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
       <div style={containerStyle}>
-        <img style={photoStyle} src="src/my_photo.jpg"/>
+        <img style={photoStyle} src=img/>
         <div style={textStyle}>
           <h1>Welcome</h1>
           <p>您好，我是盧玉隆，目前就讀於臺灣大學電機資安所</p>
